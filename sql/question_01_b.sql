@@ -69,8 +69,8 @@ with
 				rows between 29 preceding and current row
 			) as media_movel_30_dias
 		from aggregation_data
-		order by name_school, enrolled_at desc;
+		order by name_school, enrolled_at desc
 	)
 
 select *
-from metrics_time_data
+from metrics_time_data;
